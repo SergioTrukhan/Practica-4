@@ -115,6 +115,20 @@ text-decoration: none;
 
 }
 
+/* .connection .header-item{
+display: flex;
+align-items: center;
+} */
+/* .connection .smartphone{
+    display: flex;
+    align-items: center;
+    } */
+
+/* .header-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+} */
+
 .connection a{
 font-family: 'Roboto';
 font-style: normal;
@@ -159,7 +173,7 @@ color: var(--accent-color);
 
 /* Main */
 .hero{
-    background-color: var(--secondary-background-color);
+    /* background-color: var(--secondary-background-color); */
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)) , url(/img/background.png);
     background-repeat: no-repeat;
@@ -206,7 +220,7 @@ color: var(--accent-second-color);
     background-color: var(--accent-color);
     color: var(--accent-second-color);
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     border-radius: 4px;
 }
 
@@ -259,8 +273,8 @@ color: var(--secondary-text-color);
 }
 .advantage-item {
     width: 270px;
-    height: 101px;
-    margin-bottom: 94px;
+    /* height: 101px; */
+    /* margin-bottom: 94px; */
 
 }
 
@@ -297,6 +311,7 @@ color: var(--secondary-text-color);
 .services-list{
     display: flex;
     align-items: center;
+    padding-bottom: 94px;
 
 }
 
